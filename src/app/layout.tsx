@@ -6,6 +6,13 @@ import "./assets/libs/devicon/devicon.min.css";
 import Image from "next/image";
 import Script from "next/script";
 
+export const metadata: Metadata = {
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
+
 const montserrat_thin = Montserrat({
   weight: ["100"],
   style: ["normal"],
